@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1774394110234890}
+  m_IsPrefabAsset: 1
+--- !u!1 &1774394110234890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4229559020961150}
+  - component: {fileID: 20045958636360542}
+  - component: {fileID: 124425726226699232}
+  - component: {fileID: 92871169667327030}
+  - component: {fileID: 81047740747840938}
+  - component: {fileID: 114481466421258512}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4229559020961150
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1774394110234890}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: -0.0000014305115, z: -0.000000074505806}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!20 &20045958636360542
+Camera:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1774394110234890}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 500
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967039
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &81047740747840938
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1774394110234890}
+  m_Enabled: 1
+--- !u!92 &92871169667327030
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1774394110234890}
+  m_Enabled: 1
+--- !u!114 &114481466421258512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1774394110234890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc7a49b4229774501bf41114c84564a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ak47
+    clip: {fileID: 8300000, guid: c9f5153f0362c43ceaebae081ad8bdce, type: 3}
+    volume: 3
+    source: {fileID: 0}
+  - name: mosinNagant
+    clip: {fileID: 8300000, guid: b2f53d4633317478da820e5ade931ea8, type: 3}
+    volume: 4.8
+    source: {fileID: 0}
+  - name: mg42
+    clip: {fileID: 8300000, guid: 7b65e875e85c6441b930ea341ba4b4d3, type: 3}
+    volume: 0.22
+    source: {fileID: 0}
+  - name: mp40
+    clip: {fileID: 8300000, guid: 5c2ba6c30f2e34f9a94003a72372d035, type: 3}
+    volume: 7
+    source: {fileID: 0}
+  - name: sks
+    clip: {fileID: 8300000, guid: 04f7500ef7be544b79e3ea699a383f87, type: 3}
+    volume: 4
+    source: {fileID: 0}
+  - name: s1897
+    clip: {fileID: 8300000, guid: 3210d52214cb34ddea5bc0d749600232, type: 3}
+    volume: 4
+    source: {fileID: 0}
+  - name: ppsh41
+    clip: {fileID: 8300000, guid: 78a09a3fa01f8405d9c6944efcda80b0, type: 3}
+    volume: 4
+    source: {fileID: 0}
+  - name: explosion
+    clip: {fileID: 8300000, guid: a8dd5217585a14baaa45180622b099f1, type: 3}
+    volume: 7
+    source: {fileID: 0}
+  - name: tankFiring
+    clip: {fileID: 8300000, guid: 8b8206eafbc44495b807e46f6f6ec330, type: 3}
+    volume: 7
+    source: {fileID: 0}
+  - name: m3
+    clip: {fileID: 8300000, guid: 718b5255d6c27489da7a4630352b8bac, type: 3}
+    volume: 7
+    source: {fileID: 0}
+  - name: svd
+    clip: {fileID: 8300000, guid: 04f7500ef7be544b79e3ea699a383f87, type: 3}
+    volume: 7
+    source: {fileID: 0}
+--- !u!124 &124425726226699232
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1774394110234890}
+  m_Enabled: 1
